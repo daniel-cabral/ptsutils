@@ -1,0 +1,20 @@
+{
+  "name": "pts-mass-recompress-images",
+  "version": "1.0.0",
+  "description": "Mass Recompress of Photos inside OtherDocuments entity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/imagemin-mozjpeg": "^8.0.4",
+    "axios": "^1.6.3",
+    "form-data": "^4.0.0",
+    "imagemin": "^7",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^9",
+    "sharp": "^0.33.1"
+  }
+}
